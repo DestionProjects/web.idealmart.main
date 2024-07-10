@@ -1,0 +1,35 @@
+name: CICD FOR idealmart WEB
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  idealmart-Image:
+    runs-on: idealmart
+    name: Building idealmart APP
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Building Docker image for idealmart
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          sudo docker compose build web-idealmart
+
+  idealmart-Container:
+    runs-on: self-hosted
+    name: Deploying idealmart
+    needs: idealmart-Image
+
+    steps:
+      - name: Checkout Repositry
+        uses: actions/checkout@v3
+
+      - name: Building Docker image for idealmart
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          sudo docker compose up -d web-idealmart
