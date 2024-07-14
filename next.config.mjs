@@ -2,9 +2,10 @@
 const nextConfig = {
     output: 'export',
     images: {
-      loader: 'custom',
-      path: '',
+      loader: 'imgix',  // Using imgix as a loader
+      path: 'https://idealmart.ca/',  // Set your own domain or path here
     },
   };
-export default nextConfig;
+  
+  module.exports = nextConfig;
   
