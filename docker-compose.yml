@@ -9,11 +9,16 @@ networks:
 services:
   web-idealmart:
     container_name: web-idealmart
-    image: idealmart-web
-    restart: unless-stopped
     build:
       context: .
       dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
     labels:
       - traefik.enable=true
       - traefik.http.routers.web-idealmart.rule=Host(`idealmart.ca`)

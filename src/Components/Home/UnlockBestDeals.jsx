@@ -16,7 +16,7 @@ const UnlockBestDeals = () => {
               xmlns="http://www.w3.org/2000/svg"
                
             >
-              <g clip-path="url(#clip0_31_2759)">
+              <g clipPath="url(#clip0_31_2759)">
                 <path
                   d="M53.5403 24.0895C49.3875 19.572 45.8031 15.5278 45.8031 9.41808C45.8031 5.94295 46.4953 2.57288 46.5015 2.53997C46.6312 1.91784 46.4747 1.27111 46.073 0.778781C45.6735 0.286312 45.072 0 44.4375 0C40.8676 0 30.6771 2.64291 30.6771 14.3845C30.6771 21.8888 29.1568 24.3408 28.5017 24.9875C28.133 25.3541 27.6407 25.5601 27.241 25.5004C25.2986 25.4777 24.9318 22.6967 24.9195 22.5917C24.8411 21.8748 24.4004 21.2466 23.7514 20.9294C23.1026 20.608 22.3424 20.643 21.7223 21.022C13.4931 26.0505 8.57812 34.8031 8.57812 44.4375C8.57812 59.5575 20.88 72 36 72C51.12 72 63.4219 59.5575 63.4219 44.4375C63.4219 34.8486 58.1711 29.1322 53.5403 24.0895Z"
                   fill="url(#paint0_linear_31_2759)"
@@ -35,8 +35,8 @@ const UnlockBestDeals = () => {
                   y2="0"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#FD5900" />
-                  <stop offset="1" stop-color="#FFDE00" />
+                  <stop stopColor="#FD5900" />
+                  <stop offset="1" stopColor="#FFDE00" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_31_2759"
@@ -46,8 +46,8 @@ const UnlockBestDeals = () => {
                   y2="33.8906"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#FFE59A" />
-                  <stop offset="1" stop-color="#FFFFD5" />
+                  <stop stopColor="#FFE59A" />
+                  <stop offset="1" stopColor="#FFFFD5" />
                 </linearGradient>
                 <clipPath id="clip0_31_2759">
                   <rect width="72" height="72" fill="white" />

@@ -44,8 +44,8 @@ const Benefits = () => {
                       y2="88.5502"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#FF9B8C" />
-                      <stop offset="1" stop-color="#FD4D86" />
+                      <stop stopColor="#FF9B8C" />
+                      <stop offset="1" stopColor="#FD4D86" />
                     </linearGradient>
                   </defs>
                 </svg>
@@ -70,7 +70,7 @@ const Benefits = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   className="flex justify-center mx-auto md:mx-0"
                 >
-                  <g clip-path="url(#clip0_28_2131)">
+                  <g clipPath="url(#clip0_28_2131)">
                     <path
                       d="M5.35425 27.6624V97.1755C5.35425 97.6373 5.72876 98.0126 6.19135 98.0126H97.8087C98.2712 98.0126 98.6458 97.6373 98.6458 97.1755V27.6624H5.35425Z"
                       fill="#ED5176"
@@ -129,8 +129,8 @@ const Benefits = () => {
                       y2="110.195"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#FF9B8C" />
-                      <stop offset="1" stop-color="#FD4D86" />
+                      <stop stopColor="#FF9B8C" />
+                      <stop offset="1" stopColor="#FD4D86" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_28_2131"
@@ -140,8 +140,8 @@ const Benefits = () => {
                       y2="35.3517"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#FFE990" />
-                      <stop offset="1" stop-color="#FDD52D" />
+                      <stop stopColor="#FFE990" />
+                      <stop offset="1" stopColor="#FDD52D" />
                     </linearGradient>
                     <clipPath id="clip0_28_2131">
                       <rect width="104" height="104" fill="white" />
@@ -167,7 +167,7 @@ const Benefits = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   className="flex justify-center mx-auto md:mx-0"
                 >
-                  <g clip-path="url(#clip0_28_2122)">
+                  <g clipPath="url(#clip0_28_2122)">
                     <path
                       d="M103.769 97.6926L90.8171 65.4997C90.581 64.9075 90.1722 64.4 89.644 64.0431C89.1157 63.6862 88.4923 63.4964 87.8547 63.4983H14.1084C13.441 63.4982 12.7903 63.7072 12.2478 64.096C11.7054 64.4849 11.2985 65.0339 11.0843 65.6661L0.168529 97.8587C0.00552989 98.3392 -0.0406238 98.8516 0.0338927 99.3535C0.108409 99.8553 0.30145 100.332 0.59702 100.745C0.89259 101.157 1.28218 101.493 1.7335 101.725C2.18482 101.957 2.68488 102.077 3.19225 102.077H100.806C101.329 102.077 101.843 101.949 102.304 101.704C102.766 101.459 103.16 101.105 103.452 100.672C103.745 100.239 103.926 99.7411 103.982 99.2216C104.037 98.7022 103.964 98.1772 103.769 97.6926Z"
                       fill="#78C68F"
@@ -210,8 +210,8 @@ const Benefits = () => {
                       y2="67.42"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#FF9B8C" />
-                      <stop offset="1" stop-color="#FD4D86" />
+                      <stop stopColor="#FF9B8C" />
+                      <stop offset="1" stopColor="#FD4D86" />
                     </linearGradient>
                     <clipPath id="clip0_28_2122">
                       <rect width="104" height="104" fill="white" />
@@ -259,8 +259,8 @@ const Benefits = () => {
                       y2="65.8749"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#FFE990" />
-                      <stop offset="1" stop-color="#FDD52D" />
+                      <stop stopColor="#FFE990" />
+                      <stop offset="1" stopColor="#FDD52D" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_28_2152"
@@ -270,8 +270,8 @@ const Benefits = () => {
                       y2="97.0593"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#FFE180" />
-                      <stop offset="1" stop-color="#F4B04A" />
+                      <stop stopColor="#FFE180" />
+                      <stop offset="1" stopColor="#F4B04A" />
                     </linearGradient>
                     <linearGradient
                       id="paint2_linear_28_2152"
@@ -281,8 +281,8 @@ const Benefits = () => {
                       y2="97.0593"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#FFE180" />
-                      <stop offset="1" stop-color="#F4B04A" />
+                      <stop stopColor="#FFE180" />
+                      <stop offset="1" stopColor="#F4B04A" />
                     </linearGradient>
                   </defs>
                 </svg>
