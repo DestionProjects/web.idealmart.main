@@ -21,7 +21,7 @@ jobs:
           sudo docker compose build web-idealmart
 
   idealmart-Container:
-    runs-on: self-hosted
+    runs-on: idealmart
     name: Deploying idealmart
     needs: idealmart-Image
 
