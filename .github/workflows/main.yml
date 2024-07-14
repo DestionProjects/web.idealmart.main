@@ -32,4 +32,5 @@ jobs:
       - name: Building Docker image for idealmart
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
+          sudo docker compose down web-idealmart
           sudo docker compose up -d web-idealmart
