@@ -42,11 +42,9 @@ export function Banner() {
                 className="flex justify-center items-center gap-x-2 w-[190px] mt-2 lg:mt-0 mx-auto lg:mx-0"
               >
                 {" "}
-                <span className="text-[16px] font-medium lowercase">
-                  <span className=" uppercase">R</span>egister{" "}
-                  <span className=" uppercase">Y</span>our{" "}
-                  <span className=" uppercase">S</span>tore
-                </span>
+                <span className="text-[16px] font-medium lowercase capitalize">
+  Register Your Store
+</span>
               </Button>
             </div>
             <div className="relative">
