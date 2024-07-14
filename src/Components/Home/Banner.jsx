@@ -22,7 +22,7 @@ export function Banner() {
             <Typography className=" text-center md:text-start text-[#00AF91] font-bold text-sm pb-3">
               Ultimate Savings Destination!
             </Typography>
-            <Typography className="text-[#263238] text-[40px] leading-tight md:text-[56px] font-medium">
+            <Typography className="text-[#263238] text-center text-[40px] leading-tight md:text-[56px] font-medium">
               Shop Smart, Save Big on Groceries!
             </Typography>
             <Typography className="mb-8 mt-4 lg:mt-0 font-normal text-center lg:text-start  text-[20px]">
