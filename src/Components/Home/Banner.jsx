@@ -18,19 +18,19 @@ export function Banner() {
       </div>
       <div className="lg:flex">
         <div className="lg:w-1/2 mx-auto shrink-0  shadow-none rounded-r-none flex justify-center items-center h-full">
-          <div className="lg:w-9/12 mx-auto mt-40 p-5 lg:p-0">
-            <Typography className="  text-[#00AF91] font-bold text-sm">
+          <div className="w-10/12 lg:w-9/12 mx-auto mt-36 lg:mt-40">
+            <Typography className=" text-center md:text-start text-[#00AF91] font-bold text-sm pb-3">
               Ultimate Savings Destination!
             </Typography>
-            <Typography className="text-[#263238] text-4xl leading-tight md:text-[56px] font-medium">
+            <Typography className="text-[#263238] text-[40px] leading-tight md:text-[56px] font-medium">
               Shop Smart, Save Big on Groceries!
             </Typography>
-            <Typography className="mb-8 font-normal text-lg">
+            <Typography className="mb-8 mt-4 lg:mt-0 font-normal text-center lg:text-start  text-[20px]">
               Start your savings journey today with our exclusive offers,
               easy-to-use app, and trusted stores.
             </Typography>
-            <div className="flex gap-x-4">
-              <Button className="bg-[#00AF91] flex justify-center items-center gap-x-2 w-[185px]">
+            <div className="lg:flex gap-x-4">
+              <Button className="bg-[#00AF91] flex justify-center items-center gap-x-2 w-[185px] mx-auto lg:mx-0">
                 {" "}
                 <MdOutlineFileDownload className="h-[18px] w-[18px]" />
                 <span className="text-[16px] font-medium lowercase">
@@ -39,7 +39,7 @@ export function Banner() {
               </Button>
               <Button
                 variant="outlined"
-                className="flex justify-center items-center gap-x-2 w-[190px]"
+                className="flex justify-center items-center gap-x-2 w-[190px] mt-2 lg:mt-0 mx-auto lg:mx-0"
               >
                 {" "}
                 <span className="text-[16px] font-medium lowercase">
@@ -68,9 +68,9 @@ export function Banner() {
                   <Image
                     src={toronto}
                     alt="toronto"
-                    className="w-20 md:w-[104px] h-[40px] rounded-lg"
+                    className="w-[70px] md:w-[104px] h-[40px] rounded-lg"
                   />
-                  <h1 className="text-lg font-medium flex items-center">
+                  <h1 className="text-sm lg:text-lg font-medium flex items-center">
                     Toronto
                   </h1>
                 </div>
@@ -79,9 +79,9 @@ export function Banner() {
                   <Image
                     src={montreal}
                     alt="toronto"
-                    className="w-20 md:w-[104px] h-[40px] rounded-lg"
+                    className="w-[70px] md:w-[104px] h-[40px] rounded-lg"
                   />
-                  <h1 className="text-lg font-medium flex items-center">
+                  <h1 className="text-sm lg:text-lg font-medium flex items-center">
                     Montreal
                   </h1>
                 </div>
@@ -89,9 +89,9 @@ export function Banner() {
                   <Image
                     src={vancouver}
                     alt="toronto"
-                    className="w-20 md:w-[104px] h-[40px] rounded-lg"
+                    className="w-[70px] md:w-[104px] h-[40px] rounded-lg"
                   />
-                  <h1 className="text-lg font-medium flex items-center">
+                  <h1 className="text-sm lg:text-lg font-medium flex items-center">
                     Vancouver
                   </h1>
                 </div>
@@ -99,9 +99,9 @@ export function Banner() {
                   <Image
                     src={edmonton}
                     alt="toronto"
-                    className="w-20 md:w-[104px] h-[40px] rounded-lg"
+                    className="w-[70px] md:w-[104px] h-[40px] rounded-lg"
                   />
-                  <h1 className="text-lg font-medium flex items-center">
+                  <h1 className="text-sm lg:text-lg font-medium flex items-center">
                     Edmonton
                   </h1>
                 </div>
@@ -115,7 +115,7 @@ export function Banner() {
             alt="banner"
             className="mt-7 lg:mt-o h-full lg:h-[700px] w-full bg-gradient-to-b from-green-800 to-green-800/44"
           />
-          <div className="flex gap-x-5 absolute bottom-10 left-auto md:left-[25%]">
+          <div className="flex gap-x-5 justify-center absolute bottom-10  w-full mx-auto">
             <div>
               <svg
                 width="190"
@@ -123,6 +123,7 @@ export function Banner() {
                 viewBox="0 0 190 55"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="flex justify-center mx-auto"
               >
                 <path
                   d="M182.963 55H7.03704C3.16843 55 0 51.9045 0 48.125V6.875C0 3.09547 3.16843 5.44632e-07 7.03704 5.44632e-07H182.963C186.832 5.44632e-07 190 3.09547 190 6.875V48.125C190 51.9045 186.832 55 182.963 55Z"
@@ -136,50 +137,50 @@ export function Banner() {
                   d="M66.736 14.0851C66.736 15.2333 66.3841 16.1528 65.691 16.8386C64.8941 17.6516 63.8561 18.0606 62.5841 18.0606C61.3685 18.0606 60.3305 17.6447 59.4791 16.8248C58.6258 15.993 58.2001 14.972 58.2001 13.75C58.2001 12.528 58.6258 11.507 59.4791 10.682C60.3305 9.8553 61.3685 9.43936 62.5841 9.43936C63.1893 9.43936 63.7664 9.56139 64.317 9.78827C64.8659 10.0169 65.3128 10.3262 65.6365 10.7078L64.9011 11.4331C64.3364 10.7817 63.5676 10.4603 62.5841 10.4603C61.6975 10.4603 60.9287 10.7628 60.276 11.373C59.6304 11.9848 59.3066 12.7772 59.3066 13.75C59.3066 14.7228 59.6304 15.522 60.276 16.1339C60.9287 16.7372 61.6975 17.0466 62.5841 17.0466C63.5254 17.0466 64.317 16.7372 64.9416 16.127C65.3532 15.7231 65.5872 15.1662 65.6488 14.4547H62.5841V13.4612H66.6727C66.7219 13.6761 66.736 13.8841 66.736 14.0851Z"
                   fill="white"
                   stroke="white"
-                  strokeWidth="0.16"
-                  strokeMiterlimit="10"
+                  stroke-width="0.16"
+                  stroke-miterlimit="10"
                 />
                 <path
                   d="M73.2214 10.6407H69.3809V13.2532H72.8431V14.2467H69.3809V16.8592H73.2214V17.8715H68.2937V9.62839H73.2214V10.6407Z"
                   fill="white"
                   stroke="white"
-                  strokeWidth="0.16"
-                  strokeMiterlimit="10"
+                  stroke-width="0.16"
+                  stroke-miterlimit="10"
                 />
                 <path
                   d="M77.7994 17.8715H76.7122V10.6407H74.3566V9.62839H80.1568V10.6407H77.7994V17.8715Z"
                   fill="white"
                   stroke="white"
-                  strokeWidth="0.16"
-                  strokeMiterlimit="10"
+                  stroke-width="0.16"
+                  stroke-miterlimit="10"
                 />
                 <path
                   d="M84.355 17.8715V9.62839H85.4411V17.8715H84.355Z"
                   fill="white"
                   stroke="white"
-                  strokeWidth="0.16"
-                  strokeMiterlimit="10"
+                  stroke-width="0.16"
+                  stroke-miterlimit="10"
                 />
                 <path
                   d="M90.2518 17.8715H89.1734V10.6407H86.809V9.62839H92.6163V10.6407H90.2518V17.8715Z"
                   fill="white"
                   stroke="white"
-                  strokeWidth="0.16"
-                  strokeMiterlimit="10"
+                  stroke-width="0.16"
+                  stroke-miterlimit="10"
                 />
                 <path
                   d="M103.598 16.8111C102.766 17.6447 101.735 18.0606 100.505 18.0606C99.2682 18.0606 98.2373 17.6447 97.4052 16.8111C96.5748 15.9792 96.1614 14.9583 96.1614 13.75C96.1614 12.5417 96.5748 11.5208 97.4052 10.6889C98.2373 9.8553 99.2682 9.43936 100.505 9.43936C101.728 9.43936 102.759 9.8553 103.591 10.6958C104.428 11.5345 104.842 12.5486 104.842 13.75C104.842 14.9583 104.428 15.9792 103.598 16.8111ZM98.2092 16.1201C98.8355 16.7372 99.5972 17.0466 100.505 17.0466C101.406 17.0466 102.175 16.7372 102.794 16.1201C103.418 15.5031 103.735 14.7108 103.735 13.75C103.735 12.7892 103.418 11.9969 102.794 11.3798C102.175 10.7628 101.406 10.4534 100.505 10.4534C99.5972 10.4534 98.8355 10.7628 98.2092 11.3798C97.5846 11.9969 97.268 12.7892 97.268 13.75C97.268 14.7108 97.5846 15.5031 98.2092 16.1201Z"
                   fill="white"
                   stroke="white"
-                  strokeWidth="0.16"
-                  strokeMiterlimit="10"
+                  stroke-width="0.16"
+                  stroke-miterlimit="10"
                 />
                 <path
                   d="M106.366 17.8715V9.62839H107.686L111.788 16.0393H111.836L111.788 14.4546V9.62839H112.874V17.8715H111.741L107.445 11.1443H107.397L107.445 12.7359V17.8715H106.366Z"
                   fill="white"
                   stroke="white"
-                  strokeWidth="0.16"
-                  strokeMiterlimit="10"
+                  stroke-width="0.16"
+                  stroke-miterlimit="10"
                 />
                 <path
                   d="M95.8931 29.9097C92.5874 29.9097 89.887 32.3675 89.887 35.7586C89.887 39.1222 92.5874 41.6058 95.8931 41.6058C99.2058 41.6058 101.906 39.1222 101.906 35.7586C101.906 32.3675 99.2058 29.9097 95.8931 29.9097ZM95.8931 39.3027C94.0793 39.3027 92.5188 37.84 92.5188 35.7586C92.5188 33.6497 94.0793 32.2129 95.8931 32.2129C97.7069 32.2129 99.2744 33.6497 99.2744 35.7586C99.2744 37.84 97.7069 39.3027 95.8931 39.3027ZM82.7884 29.9097C79.4757 29.9097 76.7823 32.3675 76.7823 35.7586C76.7823 39.1222 79.4757 41.6058 82.7884 41.6058C86.0993 41.6058 88.7945 39.1222 88.7945 35.7586C88.7945 32.3675 86.0993 29.9097 82.7884 29.9097ZM82.7884 39.3027C80.9728 39.3027 79.4071 37.84 79.4071 35.7586C79.4071 33.6497 80.9728 32.2129 82.7884 32.2129C84.6022 32.2129 86.1626 33.6497 86.1626 35.7586C86.1626 37.84 84.6022 39.3027 82.7884 39.3027ZM67.1943 31.7024V34.1877H73.269C73.0913 35.5764 72.6163 36.5974 71.888 37.3089C71.0013 38.1683 69.6203 39.1222 67.1943 39.1222C63.4559 39.1222 60.5285 36.1746 60.5285 32.5222C60.5285 28.8699 63.4559 25.9222 67.1943 25.9222C69.2157 25.9222 70.6864 26.6939 71.7719 27.6943L73.5646 25.9429C72.0463 24.5266 70.0267 23.4386 67.1943 23.4386C62.0678 23.4386 57.7594 27.5138 57.7594 32.5222C57.7594 37.5307 62.0678 41.6058 67.1943 41.6058C69.9651 41.6058 72.0463 40.7189 73.6824 39.0552C75.359 37.4172 75.8815 35.1141 75.8815 33.2544C75.8815 32.6769 75.8323 32.1458 75.7443 31.7024H67.1943ZM130.96 33.6291C130.466 32.3211 128.941 29.9097 125.834 29.9097C122.755 29.9097 120.192 32.2799 120.192 35.7586C120.192 39.0346 122.729 41.6058 126.129 41.6058C128.879 41.6058 130.466 39.9678 131.119 39.0139L129.078 37.6854C128.397 38.6582 127.47 39.3027 126.129 39.3027C124.798 39.3027 123.842 38.7063 123.23 37.5307L131.237 34.2943L130.96 33.6291ZM122.797 35.5764C122.729 33.3214 124.59 32.1664 125.924 32.1664C126.969 32.1664 127.855 32.6769 128.151 33.4074L122.797 35.5764ZM116.29 41.25H118.922V24.0625H116.29V41.25ZM111.98 31.2125H111.892C111.301 30.5285 110.173 29.9097 108.744 29.9097C105.747 29.9097 103.006 32.481 103.006 35.7775C103.006 39.0552 105.747 41.6058 108.744 41.6058C110.173 41.6058 111.301 40.9819 111.892 40.2772H111.98V41.116C111.98 43.3521 110.757 44.5535 108.785 44.5535C107.177 44.5535 106.179 43.4191 105.768 42.4652L103.479 43.3985C104.139 44.9488 105.886 46.8566 108.785 46.8566C111.871 46.8566 114.474 45.0828 114.474 40.7671V30.2655H111.98V31.2125ZM108.97 39.3027C107.156 39.3027 105.638 37.8194 105.638 35.7775C105.638 33.7168 107.156 32.2129 108.97 32.2129C110.757 32.2129 112.166 33.7168 112.166 35.7775C112.166 37.8194 110.757 39.3027 108.97 39.3027ZM143.282 24.0625H136.988V41.25H139.612V34.7377H143.282C146.197 34.7377 149.056 32.6769 149.056 29.3993C149.056 26.1233 146.19 24.0625 143.282 24.0625ZM143.351 32.3469H139.612V26.4533H143.351C145.311 26.4533 146.43 28.0432 146.43 29.3993C146.43 30.7296 145.311 32.3469 143.351 32.3469ZM159.576 29.8771C157.68 29.8771 155.708 30.6952 154.897 32.5085L157.226 33.4624C157.728 32.5085 158.649 32.1991 159.624 32.1991C160.986 32.1991 162.367 32.9983 162.388 34.4094V34.5899C161.913 34.3218 160.896 33.9247 159.645 33.9247C157.136 33.9247 154.58 35.2739 154.58 37.7919C154.58 40.095 156.635 41.5783 158.945 41.5783C160.711 41.5783 161.686 40.7997 162.298 39.8939H162.388V41.2225H164.923V34.6294C164.923 31.5821 162.594 29.8771 159.576 29.8771ZM159.26 39.2958C158.401 39.2958 157.205 38.8799 157.205 37.84C157.205 36.5097 158.697 35.9993 159.988 35.9993C161.144 35.9993 161.686 36.2485 162.388 36.5768C162.182 38.1683 160.78 39.2958 159.26 39.2958ZM174.159 30.2535L171.142 37.7043H171.052L167.933 30.2535H165.102L169.789 40.6657L167.115 46.4596H169.858L177.079 30.2535H174.159ZM150.499 41.25H153.131V24.0625H150.499V41.25Z"
@@ -210,12 +211,12 @@ export function Banner() {
                     y2="19.4109"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stopColor="#00A0FF" />
-                    <stop offset="0.0066" stopColor="#00A1FF" />
-                    <stop offset="0.2601" stopColor="#00BEFF" />
-                    <stop offset="0.5122" stopColor="#00D2FF" />
-                    <stop offset="0.7604" stopColor="#00DFFF" />
-                    <stop offset="1" stopColor="#00E3FF" />
+                    <stop stop-color="#00A0FF" />
+                    <stop offset="0.0066" stop-color="#00A1FF" />
+                    <stop offset="0.2601" stop-color="#00BEFF" />
+                    <stop offset="0.5122" stop-color="#00D2FF" />
+                    <stop offset="0.7604" stop-color="#00DFFF" />
+                    <stop offset="1" stop-color="#00E3FF" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_13_99"
@@ -225,10 +226,10 @@ export function Banner() {
                     y2="27.498"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stopColor="#FFE000" />
-                    <stop offset="0.4087" stopColor="#FFBD00" />
-                    <stop offset="0.7754" stopColor="#FFA500" />
-                    <stop offset="1" stopColor="#FF9C00" />
+                    <stop stop-color="#FFE000" />
+                    <stop offset="0.4087" stop-color="#FFBD00" />
+                    <stop offset="0.7754" stop-color="#FFA500" />
+                    <stop offset="1" stop-color="#FF9C00" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_13_99"
@@ -238,8 +239,8 @@ export function Banner() {
                     y2="-7.67865"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stopColor="#FF3A44" />
-                    <stop offset="1" stopColor="#C31162" />
+                    <stop stop-color="#FF3A44" />
+                    <stop offset="1" stop-color="#C31162" />
                   </linearGradient>
                   <linearGradient
                     id="paint3_linear_13_99"
@@ -249,11 +250,11 @@ export function Banner() {
                     y2="40.4588"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stopColor="#32A071" />
-                    <stop offset="0.0685" stopColor="#2DA771" />
-                    <stop offset="0.4762" stopColor="#15CF74" />
-                    <stop offset="0.8009" stopColor="#06E775" />
-                    <stop offset="1" stopColor="#00F076" />
+                    <stop stop-color="#32A071" />
+                    <stop offset="0.0685" stop-color="#2DA771" />
+                    <stop offset="0.4762" stop-color="#15CF74" />
+                    <stop offset="0.8009" stop-color="#06E775" />
+                    <stop offset="1" stop-color="#00F076" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -265,6 +266,7 @@ export function Banner() {
                 viewBox="0 0 190 55"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="flex justify-center mx-auto"
               >
                 <path
                   d="M188.944 48.6571C188.944 51.5881 186.525 53.9622 183.534 53.9622H6.47298C3.48267 53.9622 1.05542 51.5881 1.05542 48.6571V6.34984C1.05542 3.42021 3.48267 1.03772 6.47298 1.03772H183.532C186.525 1.03772 188.943 3.42021 188.943 6.34984L188.944 48.6571Z"
